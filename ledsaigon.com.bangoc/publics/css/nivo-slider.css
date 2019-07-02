@@ -1,0 +1,56 @@
+/*
+
+ * jQuery Nivo Slider v3.1
+
+ * http://nivo.dev7studios.com
+
+ *
+
+ * Copyright 2012, Dev7studios
+
+ * Free to use and abuse under the MIT license.
+
+ * http://www.opensource.org/licenses/mit-license.php
+
+ */
+
+ 
+
+/* The Nivo Slider styles */
+
+.wrapSlide{ width:100%; text-align:center;overflow:hidden; height:245px; margin-bottom:1px}
+
+.nivoSlider {position:relative;	width:100%; height:245px;  margin:auto; overflow:hidden }
+
+.nivoSlider img {position:absolute;top:0px;left:0px;max-width: none; }
+
+.nivo-main-image {display: block !important;position: relative !important; width:100% !important;}
+
+/* The slices and boxes in the Slider */
+
+.nivo-slice {display:block;position:absolute;z-index:5;height:100%;	top:0;}
+
+.nivo-box {	display:block;position:absolute;z-index:5;overflow:hidden;}
+
+.nivo-box img { display:block; }
+
+
+
+/* Direction nav styles (e.g. Next & Prev) */
+
+.nivo-directionNav .nivo-btn-next, .nivo-directionNav .nivo-btn-pre {position:absolute;top:45%;z-index:9;cursor:pointer;width:60px; height:71px}
+
+/*.nivo-btn-pre {left:-18px; background:url(../images/btn-pre.png); overflow:hidden; z-index:999; height:68px !important}*/
+
+/*.nivo-btn-pre:hover {background:url(../images/btn-pre-hover.png)  center no-repeat}
+
+.nivo-btn-next:hover {background:url(../images/btn-next-hover.png)  center no-repeat}*/
+
+
+
+/*.nivo-btn-next {right:-18px;background:url(../images/btn-next.png); overflow:hidden; z-index:999;}
+*/
+/* Control nav styles (e.g. 1,2,3...) */
+
+.nivo-controlNav {text-align:center;padding: 15px 0;}
+

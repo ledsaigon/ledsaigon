@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+div#header,div#body{
+	
+}
+
+*html div#form_login div.top{
+	overflow:hidden;
+}
+
+*html div#form_login div.footer{
+	background-position-y:5px;
+}
+
+div#header div.title img{
+}
+
+div#header div.title span{
+	margin:0px;
+	display:inline;	
+	text-transform:capitalize;
+}
+
+div#body{
+	width:97.9%;
+}
+
+div#form_login div.center .right p{
+	/*margin:12px 0px;*/
+	margin:0px;
+	padding:0px;
+}

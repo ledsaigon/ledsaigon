@@ -1,0 +1,293 @@
+/* CSS Document */
+@import url('nivo-slider.css');
+*{ margin:0; padding:0;}
+body{ margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:12px;  text-align:center}
+div{ margin:0; padding:0}
+img { border:none}
+ul ,li{ list-style:none}
+a { text-decoration:none; color:black }
+.clear{ clear:both}
+input.button{ width:auto !important; padding:4px 15px 4px 15px !important; background:#cc0001; color:white; font-weight:bold; cursor:pointer; border:none} 
+.left-content h2, .right-content h2{ text-align:left; font-size:12px;  text-transform:uppercase;  padding-left:35px;  color:#ffffff; line-height:30px; height:30px; background:url(../images/bg-title-left.png) left center repeat-x; margin-bottom:2px}
+.left-content h3{ line-height:25px; color:white; background:#0066cc url(../images/icon-row.png) 8px  center no-repeat; padding-left:25px; margin:5px 0 5px 0 }
+.left-content h3 a{ color:white; font-weight:normal; font-family:Arial, Helvetica, sans-serif}
+
+h3.title, h1.title{font-size:12px; text-transform:uppercase;   text-align:left; padding:0 0px 0 0px; margin:0px 0 0px 0px; width:auto; overflow:hidden;  color:white}
+div.title{ height:34px; line-height:34px; overflow:hidden; background:url(../images/bg-title-content.png) left center no-repeat; padding-left:40px}
+div.title2{ height:34px; line-height:34px; overflow:hidden; background:url(../images/bg-title-content2.png) left center no-repeat; padding-left:40px}
+.background{ background:url(../images/bg-top.png) top repeat-x; text-align:center; margin:auto; }
+#wrapper{ width:1250px;margin:0 auto; background:url(../images/bg-wrapper.png) center repeat-y; overflow:hidden}
+.box-shadown{-moz-box-shadow: 0 0 3px 3px #afafaf;
+-webkit-box-shadow: 0 0 3px 3px #afafaf;
+box-shadow: 0 0 3px 3px #afafaf;width:980px; margin:auto; position:relative;}
+/******************* Header ********************************/
+#header{width:100%; margin:auto; clear:both;}
+#header .banner{text-align:center; overflow:hidden;width:100%; clear:both; background:url(../images/bg-banner.png) repeat-x; position:relative}
+.menuTop{ height:39px; line-height:39px; clear:both; background:url(../images/bg-menu.png) center repeat-x; z-index:999; position:relative; margin:1px 0 1px 0}
+.menuTop ul{ }
+.menuTop li{ display:inline; text-align:center;padding:0 45px 0 45px; position:relative; background:url(../images/border-li.png) right center no-repeat; float:left; background:url(../images/border-li.png) right center no-repeat }
+.menuTop li:last-child{ background:none}
+.menuTop li a{ text-transform:uppercase;  color:#f2e9ea; font-weight:bold}
+.menuTop li:hover , .menuTop li.active { background:url(../images/bg-li-active.png) }
+.menuTop a:hover ,.menuTop li.active a{ color:#FFF}
+#theClock{width:300px; float:left; color:white; font-family:Arial, Helvetica, sans-serif}
+/*************************** Sub menu********************/
+.menuTop ul li ul{ overflow:hidden; position:absolute; top:35px; left:-10px;width:300px; z-index:99; display:none; visibility:visible; padding-top:10px; }
+.menuTop ul li:hover ul{ display:block}
+.menuTop ul li ul li{ text-align:left; border-bottom:1px solid #FFF; width:300px; line-height:25px !important; padding-left:10px;  margin:0;background:#2568ac !important}
+.menuTop ul li ul li:hover{}
+.menuTop ul li ul li a{ text-transform:none}
+#header .sologan{height:30px; line-height:30px; background:#f7931e; text-align:center; text-transform:uppercase; font-size:15px; overflow:hidden}
+#header .date{width:170px; float:left; color:white}
+p.cart{ line-height:30px; text-align:right}
+p.cart a{ color:white; text-transform:uppercase; background:url(../images/icon-cart.png) left center no-repeat; padding-left:35px}
+#header .frmSearch{ overflow:hidden; height:30px; line-height:30px; margin:0px 0px 0 0; position:absolute; bottom:10px;right:0;width:350px;}
+#header #frmSearch input{ padding:0; margin:0px 0 0 0; float:right}
+#header #frmSearch select{ height:24px}
+#header #frmSearch{ text-align:right; color:white;width:500px;  float:right }
+#frmSearch p label{ margin-right:25px}
+#header #frmSearch #keyword{ width:250px; margin:0px 0px 0 0; height:22px; background:#FFF; color:#000; padding-left:5px}
+#header #frmSearch #submit{  border:none; cursor:pointer;width:auto; }
+/********************** Slide***********************/
+.slideHome{ overflow:hidden; height:180px;width:100%; }
+.slideHome ul{width:2000px; overflow:hidden}
+.slideHome li{ overflow:hidden; float:left; margin-right:18px;width:255px; height:180px; text-align:center}
+.slideHome li img{webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;width:250px; height:175px; }
+/*****************************  Content ************************************************/
+#content{overflow:hidden;width:100%; padding:0;text-align:left; padding:0px 0 0 0; background:#FFF; margin:0px auto auto auto}
+
+/********************************** Left *******************************/
+
+dl  {width: 100%; overflow:hidden; text-align:left}
+
+dt{ border-bottom:1px dashed #90cadc; padding:3px 0 3px 0; text-align:center}
+dt a, p.category a {color: white;}
+dd { display:none}
+dd.active{ display:block}
+dd a {color: black;}
+dd ul li{ background:url(../images/bg-li.png) center no-repeat; line-height:26px; padding:2px 0 2px 35px; margin-bottom:1px}
+dd ul li a{ color:#000}
+ul#category{margin:0px 0 0px 0px; background:#FFF}
+ul#category li{padding:0px 0 1px 0px;text-align:left; margin-bottom:1px; background:url(../images/bg-title-left2.png) left top no-repeat; line-height:30px; font-weight:bold; text-indent:30px}
+ul#category li:last-child{ border-bottom:none}
+ul#category li a{ text-transform:none; font-weight:bold; color:#000; text-transform:uppercase}
+ul#category li a:hover,ul#category li a.active{}
+ul#category li ul{ margin-left:0px;}
+ul#category li ul li{ background:url(../images/bg-li.png) left  no-repeat; padding-left:15px;}
+ul#category li li a{ text-transform:none}
+
+
+.left-content{width:236px;float:left; padding:0px 5px 0 0px; overflow:hidden; text-align:left; clear:left; border-right:1px solid #CCC}
+
+.block-left{overflow:hidden; margin:0px 0 10px 0; }
+.block-left .middel{ overflow:hidden !important; background:url(../images/bg-middel-block.png) center repeat-y; margin:0 !important; float:left;width:100% }
+
+.block-left h2 { overflow:hidden; background:url(../images/bg-top-block.png) center no-repeat; height:40px; line-height:30px; color:white; text-transform:none; text-align:center; margin:0}
+p.list-news a{ color:#3c3c3c; font-weight:bold}
+
+/******************************** SUPPORT ****************************/
+.support{ overflow:hidden;  padding:0px 0 0px 0 ; margin:10px 0px 0px 0px;  text-align:center; width:200px; margin:auto; }
+.support  img{ float:right; margin-top:-10px }
+.support p{ overflow:hidden; margin:0px 0 0 0px;   line-height:20px; text-align:center; font-weight:bold; text-align:left }
+.support p span{ color:#c60000}
+
+/******************************** Counter ****************************/
+
+.counter{  overflow:hidden;  padding:10px 0 10px 80px; background:url(../images/bg-counter.png) left center no-repeat }
+.counter p{ line-height:28px; font-weight:bold; overflow:hidden;  text-align:left; }
+
+.counter p span{ text-align:right; margin-right:5px; float:right }
+.left-content  .block-left .img-ads{ width:240px; overflow:hidden; margin:5px 0 10px 0; text-align:center}
+
+
+
+.rate{ overflow:hidden;}
+.rate table td{height:20px; padding-left:10px}
+.rate p.curentcy{ background:url(../images/icon-rate.png) left center no-repeat; padding-left:30px; line-height:30px; text-align:left}
+ .rate p.gold{ background:url(../images/icon-gold.png) left center no-repeat; padding-left:25px; line-height:30px; float:left; clear:both}
+.rate p.source{ font-style:italic; color:#bfbfbf; float:right; margin:5px 25px 0 0; clear:both; overflow:hidden}
+
+/***************************  News *******************************/
+.otherNews{ overflow:hidden}
+.otherNews p{ line-height:20px; margin:10px 0 0 0; background:url(../images/icon/icon-list-news.png) left center no-repeat; padding-left:20px}
+/*************************** RIGHT ********************************/
+.right-content{ overflow:hidden; width:236px; float:right; border-left:1px solid #CCC; padding-left:5px}
+.block-right{ overflow:hidden; text-align:center; margin-bottom:10px}
+.block-right img{max-width:180px; margin:10px 0 10px 0; max-height:220px}
+.block-right .news{ overflow:hidden; text-align:justify; line-height:22px; margin:5px 2px 5px 0}
+.block-right .news img{ float:left; margin:0 5px 0 0 !important}
+.block-right marquee{ margin-bottom:15px; text-align:center}
+/**************** Main -content****************/
+.main-content{overflow:hidden; float:left; margin:0px 0px 0 5px;padding:0px 0px 0 0px;width:755px; text-align:left;}
+#content .main-content p.top{height:17px; background:url(../images/bg-top-block-2.png) center}
+#content .main-content .middel{background:url(../images/bg-middel-block-22.png)1px top repeat-y; overflow:hidden; }
+
+#content .main-content p.bottom{height:17px; background:url(../images/bg-bottom-block-2.png) center}
+.main-content .block-home{overflow:hidden;width:656px; margin:5px 0 15px 0}
+.main-content .block-home p.top{ height:15px; background:url(../images/bg-top-blck-content.png) top center no-repeat}
+.main-content .block-home p.bottom{ height:15px; background:url(../images/bg-bottom-blk-content.png) bottom center no-repeat; }
+.main-content .block-home .middel{ overflow:hidden; background:url(../images/bg-midel-blk-content.png) center repeat-y; padding:0 5px 10px 10px; line-height:25px !important}
+.main-content .block-home p.read-more{ float:right; margin:5px 5px 0 0}
+.main-content .block-home p.read-more a{color:#2995a4; }
+.list-product{overflow:hidden; margin:10px 0 20px 0; }
+.list-product .product-item{overflow:hidden; width:180px;  float:left; margin:0 11px 0 0; text-align:center; background:#fcfcfc}
+
+.list-product .product-item-last{overflow:hidden; width:180px; float:right; text-align:center; margin-right:0px; background:#fcfcfc }
+.list-product .img {text-align:center;overflow:hidden; margin:0px 0 1px 0; border:1px solid #CCC }
+.list-product p{ line-height:23px; }
+.list-product .img img{ height:125px; max-width:155px; width:auto !important; width:155px }
+.list-product .sapo{ overflow:hidden; text-align:justify; margin-top:3px; }
+.list-product p.name{text-align:center; text-transform:uppercase; min-height:35px; height:auto !important; height:35px; background:#b1b1b1; padding:3px 0 0 0}
+.list-product p.name a{  font-weight:bold; line-height:18px}
+.list-product p.price{color:#cf0200; line-height:28px}
+.list-product p.price span{ color:black}
+
+.page-content .list-product p.detail{ line-height:25px;}
+.page-content .list-product p.code{ background:#e4e2e3; font-weight:bold}
+.list-product p.order a{ color:white}
+ .list-product p.detail a{ color:white}
+  .list-product p.detail { background:#3f8ac4;}
+
+
+
+/****************************** User ******************************/
+#frmLogin{ margin-top:20px}
+#frmLogin input{width:180px; padding:2px}
+#frmLogin .error{ color:red; margin-left:120px}
+#fldLogin{ overflow:hidden; width:400px; margin:auto; border: 1px solid #CCC; padding:10px}
+#fldLogin p{ overflow:hidden; margin:10px 0 10px 0}
+#fldLogin p label{ float:left;width:120px}
+#fldLogin p.btn{ margin-left:120px}
+/*************** Footer ****************************************************************/
+#footer{ overflow:hidden;text-align:center; width:1250px; margin:auto;; padding:0px 0 5px 0; background:#0631a9; clear:both; border-top:4px solid #000}
+.footer{width:1250px; margin:auto; line-height:25px; color:#FFF; }
+.footer a{ color:#0565a5}
+.menuFooter{ overflow:hidden; height:30px; background:#570303; line-height:30px}
+.menuFooter ul{ overflow:hidden; height:30px;width:100%}
+.menuFooter li{ float:left; text-align:center; line-height:30px;  overflow:hidden; padding:0 32px 0 32px }
+.menuFooter li:last-child{ background:none; }
+.menuFooter li a{ color:white; text-transform:uppercase}
+.footer{overflow:hidden; line-height:25px; text-align:left}
+.paging{ float:right; margin:15px 120px 0 0; font-size:12px; clear:both}
+.paging div{ float:left;padding:0 2px 0 2px; color:black;  display:inline; margin-left:5px }
+.paging  .num{padding:8px; font-size:12px; background:url(../images/bg-page.png) center; margin-right:5px; font-weight:bold}
+.paging .curent {  color:red !important;padding:5px; font-weight:bold;background:url(../images/bg-page.png) center; margin-right:5px }
+.paging img{ margin:10px 0px 0 0px; }
+
+
+#lbOverlay {position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; cursor: pointer;}
+
+
+
+#lbCenter, #lbBottomContainer {	position: absolute; z-index: 9999; overflow: hidden; background-color: #fff;}
+
+
+
+.lbLoading {background: #fff url(../images/loading.gif) no-repeat center;}
+
+
+
+#lbImage {position: absolute; left: 0; top: 0; border: 10px solid #fff; background-repeat: no-repeat; }
+
+
+
+#lbPrevLink, #lbNextLink {display: block; position: absolute; top: 0; width: 50%; outline: none; }
+
+
+
+#lbPrevLink {left: 0;}
+
+
+
+#lbPrevLink:hover {	background: transparent url(../images/prevlabel.gif) no-repeat 0 15%;}
+
+
+
+#lbNextLink {right: 0;} 
+
+
+
+#lbNextLink:hover {	background: transparent url(../images/nextlabel.gif) no-repeat 100% 15%;}
+
+
+
+#lbBottom {font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 10px; color: #666; line-height: 1.4em; text-align: left; border: 10px solid #fff; border-top-style: none;}
+
+
+
+#lbCloseLink {display: block; float: right; width: 66px; height: 22px; background: transparent url(../images/closelabel.gif) no-repeat center; margin: 5px 0; outline: none; }
+
+
+
+#lbCaption, #lbNumber {margin-right: 71px; }
+
+
+
+#lbCaption {font-weight: bold;}	
+
+
+
+.block-left .partner{ overflow:hidden; text-align:center}
+.block-left .partner img{ margin:10px 0 10px 0}
+
+
+.page-content{ overflow:hidden; margin:0 0px 0px 0px;}
+
+.block-cate{ overflow:hidden; background:url(../images/bg-bottom-cate.png) bottom center no-repeat; padding-bottom:13px;}
+.block-cate ul{ background:#edd890;margin: 0 2px 0 5px}
+.block-cate ul li{ background:url(../images/icon-li.png) left center no-repeat; padding-left:25px; line-height:30px; border-bottom:1px dashed #a1702a;margin:0 5px 0 5px}
+.block-cate a{ color:#773700; text-transform:uppercase}
+.block-left p.news{ overflow:hidden; line-height:20px; margin:5px 5px 10px 5px; font-weight:bold}
+.block-left p.news img{ float:left; margin-right:5px}
+
+
+/********************************* BreadCrumd ************************************/
+.breadcrumb{ height:20px; line-height:20px;}
+.breadcrumb li{ float:left; color:white; font-family:Verdana, Geneva, sans-serif; font-size:11px}
+.breadcrumb li a{color:white}
+/************************* SLIDE ********************/
+
+.newsHome { overflow:hidden; float:right;width:400px;}
+.newsHome p{ overflow:hidden; line-height:25px; background:url(../images/icon-news.png) left center no-repeat; padding-left:20px; font-weight:bold}
+.newsHome a:hover{ color:red}
+.supportFooter{ overflow:hidden;  width:350px; float:left; margin-left:40px; color:#565656; line-height:20px}
+.supportFooter label{width:60px; float:left; font-weight:bold}
+.adsLeft{ overflow:hidden; text-align:center}
+.adsLeft img{ width:210px; margin:10px 0 10px 0}
+
+#frmSearch{ overflow:hidden; margin:0 20px 0 20px;}
+#frmSearch p{ overflow:hidden; margin-bottom:10px}
+#frmSearch input, #frmSearch select{width:180px; background:#b6b5b3; padding:1px; border:none; color:#e3e1e2}
+#frmSearch #submit{ width:auto; float:right; padding:3px 15px 3px 15px; margin-right:23px; color:black; cursor:pointer; font-weight:bold}
+.block{ overflow:hidden; border-left:2px solid #dbd5d5;; border-bottom:2px solid #dbd5d5;; border-right:2px solid #dbd5d5; padding:5px; margin:0px 0 15px 0}
+.title .view-more{ float:right; margin-right:15px; color:white}
+
+.block-ads{ overflow:hidden; text-align:center}
+.block-ads img{ max-width:200px; margin:10px 0 10px 0}
+
+
+
+.page-content div.img-detail{width:205px;  float:left; margin:10px 0 15px 0; overflow:hidden; text-align: center;  text-align:center}
+.page-content .img-detail img{ text-align:center; max-width:200px; }
+
+div.info {width:200px;margin:10px 0 0 0px; padding-left:20px;  overflow:hidden; float:left;  position:relative;}
+div.info p{  font-size:12px;  line-height:30px;}
+div.info .artists{ text-transform:uppercase; font-weight:bold; color:black}
+div.info .name{ text-transform:uppercase}
+div.info .shopnow{ background:#b00900; color:white; font-weight:normal; padding:5px 15px 5px 15px; text-transform:uppercase;}
+.info .intro{ line-height:25px}
+.info .intro h3{ border-bottom:1px solid #d5d5d5}
+div.info p.price{ color:red }
+div.info p label{width:60px; float:left; font-weight:bold}
+.detail-product h3{ float:left; font-weight:bold;font-size:14px; margin:0 0 15px 0px; padding:0 0 5px 0;  display:block; width:100%; background:none; color:black; text-transform:none; border-bottom:1px solid #d5d5d5} 
+
+.detail-product{ margin:10px 0 15px 0; overflow:hidden; clear:both;  }
+#frmWeblink select{width:200px; margin:10px 0 10px 10px}
+.listAds{ overflow:hidden; text-align:center; margin:10px 0 10px 0}
+.listAds a{ font-weight:bold; color:#2568ac}
+.listAds img{ max-width:200px; width:auto !important;width:200px}
+.block-right table{width:200px; margin: 10px auto; background:#CCC}
+.block-right table tr{ background:#FFF}
+.block-right table th, .block-right table td{ line-height:25px}
+.block-right .news{ overflow:hidden; padding:5px}
+.block-right .news  a{ color:#872603}

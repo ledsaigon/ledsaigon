@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <items>
+    <liID>1</liID>
+    <liName>P9cOcsXiyNHvZbdtVbdujbwI5woYdqHoSEddyR+/jTPMPMKAs+2yfeAzk2A6fLKarDuNf2JFNXj0v8vo9cYxHfIL1mGEZzf0MIOblG37Fx7dabuDMRHQg6tdMVV3Gy2B</liName>
+    <liAlias>http://thanhnien.com.vn</liAlias>
+    <liOrder>1</liOrder>
+    <liHeadline>CVZ5/kmqSQ5GmHWtCmz3ARmkxuxP6jV2Ob9Cr6krWXIaKG3zp29aobbjfu+Lsz7x9mr2LIR60fXLqvtxvVitmQ==</liHeadline>
+    <liPath>http://localhost:81/giaoduc_anphu/resource/admin/images/noimage.png</liPath>
+    <liState>0</liState>
+    <liActive>1</liActive>
+    <liCreatedDate>2011-03-18 09:00:33</liCreatedDate>
+    <liUpdatedDate>2011-03-18 09:03:05</liUpdatedDate>
+  </items>
+  <items>
+    <liID>2</liID>
+    <liName>wunMgRJ+YUyY6TLAA/ZNu+5F9kyTf7jXlswNfsWARKj8kXwhDOg9EEBeUh3PSq5YW0eoSIJtC6b4kCcek7ciLQ==</liName>
+    <liAlias>http://google.com</liAlias>
+    <liOrder>1</liOrder>
+    <liHeadline>2m9GW99m6Ja2nGWhZtdvCdbd73tX2LY7qzbvMtJVK+UaKG3zp29aobbjfu+Lsz7x9mr2LIR60fXLqvtxvVitmQ==</liHeadline>
+    <liPath>/resource/upload/images/banner/ancnocbanner.jpg</liPath>
+    <liState>0</liState>
+    <liActive>1</liActive>
+    <liCreatedDate>2011-04-18 10:01:12</liCreatedDate>
+    <liUpdatedDate>2011-04-25 14:54:21</liUpdatedDate>
+  </items>
+  <items>
+    <liID>6</liID>
+    <liName>vsyb2yM07gC3ukhXZgf0KaOB7foTPTvITGN+b+l6h0jdoAHkChO62uw7yjHyoNY5HjBMtnX5skqjoojV4jIObAkiFianzB7+KOMegyQEWTIi7uwmBUv3Ou+ZMyScww/hbTngA34GgKKVu7nlwDJWz3lftWu6MHvvD9K91RNG9x22cRdYjVz0p1v2O5dTGIeg96vBbz5WO/RTkfpb2xOUTl5W0aR0HDJFogknp7lYiUE/qPqa1m9NsV/m5xuy7DK0</liName>
+    <liAlias>http://www.hankeybannister.com</liAlias>
+    <liOrder>1</liOrder>
+    <liHeadline>zWSzPNju+TQs93ZioRccrrN66+k+ly116u+mgNZ0CPiL2+T06kHG40jYgzRZuYUa6LzCaRogBXCYyzXLFGZ8sg==</liHeadline>
+    <liPath>/resource/upload/images/product/HB-40-bb-ZING.jpg</liPath>
+    <liState>0</liState>
+    <liActive>1</liActive>
+    <liCreatedDate>2011-04-18 16:31:23</liCreatedDate>
+    <liUpdatedDate>2011-05-05 00:44:14</liUpdatedDate>
+  </items>
+  <items>
+    <liID>7</liID>
+    <liName>a33pQOGO5t4YKhMaX3mmYdnzdoypKNHvUTkuOYBwm5FAr/iD/iPb6LuPgYHbO8b/IfigNmmmyDCevy+mj1Bfmg==</liName>
+    <liAlias>www.whiskies.com.vn</liAlias>
+    <liOrder>2</liOrder>
+    <liHeadline>MrOyQHo+r3K+VLoXnewE5o/wco+ArEkkaSDA1wG4sFkaKG3zp29aobbjfu+Lsz7x9mr2LIR60fXLqvtxvVitmQ==</liHeadline>
+    <liPath>/resource/upload/images/product/hankey-25-new.jpg</liPath>
+    <liState>0</liState>
+    <liActive>1</liActive>
+    <liCreatedDate>2011-04-29 01:10:08</liCreatedDate>
+    <liUpdatedDate>2011-04-29 01:10:08</liUpdatedDate>
+  </items>
+  <items>
+    <liID>4</liID>
+    <liName>okOT0UPneDvQbbuVD8PbXShUiqItx2DOrbTw534BLjfNViDTibJ/QWuML3bD7KjnPfYeoMsVKtLM4zdHDtgVEg==</liName>
+    <liAlias></liAlias>
+    <liOrder>3</liOrder>
+    <liHeadline>uPbPiIaUTu20mKSwKZT2+IaXT4nXKC9mYWhx8eztB5caKG3zp29aobbjfu+Lsz7x9mr2LIR60fXLqvtxvVitmQ==</liHeadline>
+    <liPath>/resource/upload/images/banner/Glenfarclas.jpg</liPath>
+    <liState>0</liState>
+    <liActive>1</liActive>
+    <liCreatedDate>2011-04-18 10:01:36</liCreatedDate>
+    <liUpdatedDate>2011-04-25 14:54:28</liUpdatedDate>
+  </items>
+</root>

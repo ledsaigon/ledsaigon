@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+div#body{
+	width:97.7%;	
+}
+
+div#form_login div.footer{
+	background-position:bottom;
+}

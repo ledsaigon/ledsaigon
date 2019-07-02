@@ -1,0 +1,475 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	background-color:#747474;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px auto;
+	padding:0px;
+	color:#FFF;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	min-width:1000px;
+	background:#52575D url(../images/bg.jpg) repeat-y left;
+}
+#loading_page {
+	display:block;
+	position:absolute;
+	top:200px;
+	height:50px;
+	width:150px;
+	background-color:#FFF;
+	border:#000 1px solid;
+	color:#F00;
+	line-height:50px;
+	text-align:center;
+}
+.clear {
+	clear:both;
+}
+a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+.fright{
+	float:right;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+textarea {
+	overflow:auto;
+}
+
+.chkCheck, #chkCheckAll{
+	border:#999 1px solid;
+	padding:2px;	
+}
+/* TOP ***********************************************************************************/
+#top_page {
+	background-color:#222;
+	width:100%;
+	height:35px;
+}
+#disable_top_page {
+	background-color:#666;
+	/* for IE */
+	filter:alpha(opacity=30);
+	/* CSS3 standard */
+	opacity:0.3;
+	width:100%;
+	height:35px;
+	position:absolute;
+}
+#top_page img {
+	position:absolute;
+	height:33px;
+}
+#top_page span {
+	margin-left:44px;
+	height:35px;
+	line-height:35px;
+	display:inline-block;
+	width:95%;
+}
+#top_page span div.title {
+	font-weight:bold;
+	display:inline;
+	text-transform:uppercase;
+	font-size:11pt;
+	float:left;
+}
+#top_page span div.marquee {
+	width:50%;
+	float:left;
+	margin-left:10px;
+	color:#CCC;
+}
+#top_page span div.function_top {
+	float:right;
+	font-size:11px;
+	height:35px;
+}
+#top_page span div.function_top a {
+	line-height:35px;
+	display:inline-block;
+	padding-left:18px;
+}
+#top_page span div.function_top .logout {
+	background:url(../images/iconx16/logout.png) no-repeat left center;
+}
+#top_page span div.function_top .viewsite {
+	background:url(../images/iconx16/viewsite.png) no-repeat left center;
+}
+#top_page span div.function_top .messages {
+	background:url(../images/iconx16/messages.png) no-repeat left center;
+}
+#top_page span div.function_top .changepass {
+	background:url(../images/iconx16/user.png) no-repeat left center;
+}
+/* END TOP ***********************************************************************************/
+
+/* TREEVIEW */
+#center_page .left ul#navigation {
+	margin:0px;
+	padding:0px;
+	text-align:right;
+}
+#center_page .left ul#navigation a:hover {
+	color:#FFF;
+}
+#center_page .left ul#navigation li {
+	margin:0px;
+	padding:0px;
+}
+#center_page .left ul#navigation li.parent span {
+	display:block;
+	background: url(../images/bg_menu.jpg) no-repeat left center;
+	height:29px;
+	line-height:29px;
+	padding-right:10px;
+	color:#FFF;
+	font-size:11px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#center_page .left ul#navigation li.parent span:hover {
+	/*padding-right:20px;*/
+	color:#FFF;
+	font-weight:bold;
+}
+#center_page .left ul#navigation li.parent a.selected {
+	text-decoration:underline;
+	font-weight:bold;
+	color:#003;
+}
+#center_page .left ul#navigation li ul {
+	background-color:transparent;
+	margin:0px;
+	padding:0px;
+}
+#center_page .left ul#navigation li ul {
+	margin:0px;
+	padding:0px;
+}
+#center_page .left ul#navigation li ul li {
+	padding:5px 5px;
+}
+#center_page .left ul#navigation li ul li img {
+	float:right;
+	margin-left:5px;
+}
+/* END TREEVIEW */
+.status_language{
+	float:left;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.status_language h4{
+	margin:0px;
+	padding:0px;	
+	font-size:12pt;
+}
+.status_language img{
+	float:right;
+}
+
+.hide_left{
+	background:url(../images/toolbar/icon-32-revert.png) no-repeat top left;
+	height:32px;
+	line-height:32px;
+	padding-left:35px;
+	cursor:pointer;
+	float:left;
+	margin-top:-13px;
+	width:200px;
+}
+.hide_left_show{
+	background:url(../images/toolbar/icon-32-revert_2.png) no-repeat top left;
+}
+
+/* BUTTON */
+.button_action a{
+	height:25px;
+	width:25px;
+	display:inline-block;
+	line-height:100px;
+	overflow:hidden;	
+}
+.button_action a:hover{
+	background-position:top;	
+}
+.menu_item_delete{ 
+	background:url(../images/menu/icon-25-cancel.png) no-repeat center bottom;
+}
+.button_clean_trash{
+	background:url(../images/menu/icon_clean_trash.png) no-repeat  center;
+}
+.delete_item{
+	background:url(../images/menu/icon-25-cancel.png) no-repeat center bottom;
+}
+.enable_item{
+	background:url(../images/menu/icon_enable.png) no-repeat center bottom;
+}
+.enable_home{
+	background:url(../images/menu/icon_home.jpg) no-repeat center ;
+}
+.delete_home{
+	background:url(../images/menu/icon_del_home.png) no-repeat center ;
+}
+.button_enable{
+	background:url(../images/toolbar/icon_enable_32.png) no-repeat center top;
+}
+.disable_item{
+	background:url(../images/menu/icon_disable.png) no-repeat center bottom;
+}
+.button_disable{
+	background:url(../images/toolbar/icon_disable_32.png) no-repeat center top;
+}
+.menu_item_detail{
+	background:url(../images/menu/icon-25-article.png) no-repeat center bottom;
+}
+.edit_item{
+	background:url(../images/menu/icon_edit.png) no-repeat center bottom;
+}
+
+
+/* END BUTTON */
+/* CENTER ************************************************************************************/
+#center_page {
+	clear:both;
+	min-width:1000px;
+	margin:10px 0px 0px;
+}
+#center_page .left {
+	width:220px;
+	float:left;
+	word-wrap:break-word;
+	margin-right:6px;
+}
+#center_page .right {
+	width:760px;
+	overflow:auto;
+	float:left;
+	margin:0px auto;
+	display:none;
+}
+#center_page .right .fontsize {
+	float:left;
+	width:30%;
+	margin:2px 10px 2px 2px;
+}
+#center_page .right .fontsize img {
+	cursor:pointer;
+}
+
+.content_right {
+	width:99%;
+	margin:0px auto;
+	padding:10px 0px;
+}
+.ui-widget-header {
+	padding: 5px 0px;
+	text-align: center;
+	text-transform:uppercase;
+	width:99%;
+	margin:5px auto;
+}
+.ui-widget-header span {
+	line-height:46px;
+	font-size:14pt;
+	margin-left:5px;
+}
+
+.ui-widget-header{border:#F00 0px solid;}
+.absolute {
+	position:absolute;
+	float:left;
+}
+/* END CENTER ************************************************************************************/
+
+/* TABLE DATA */
+#table_data_source{
+	width:98%;
+	margin:0px auto;
+	background-color:#393939;
+}
+#table_data_source tr th{
+	color:#FFF;
+	font-weight:13pt;
+	text-align:left;
+	padding:5px;
+}
+#table_data_source tr td.border{
+	background-color:#FFF;
+	padding:5px;	
+}
+
+#table_data_source tr td input.text{
+	width:99%;
+	border:#CCC 1px solid;	
+	padding:3px;
+}
+
+#table_data_source tr td input.text_path{
+	width:80%;
+	border:#CCC 1px solid;	
+	padding:3px;
+}
+
+#imagePath{
+	display:block;
+	margin-bottom:2px;
+	border:#999 1px solid;
+	width:100px;
+	height:100px;	
+}
+
+
+#table_data_source tr td select.text{
+	width:99.95%;
+	border:#CCC 1px solid;	
+	padding:3px;
+}
+
+#table_data{
+	margin:0px auto;
+	width:98.9%;	
+}
+
+#table_data tr th{
+	color:#000;	
+}
+
+#table_data tr:hover{
+	background-color:#CCC;
+}
+
+.DataTables_sort_wrapper{
+	padding:5px 0px;	
+}
+
+.css_right{
+	float:right;	
+}
+span.ui-state-default{
+	/*font-size:12pt;
+	line-height:30px;
+	margin:0px;*/
+	color:#FFF;
+}
+
+.dataTables_empty{
+	padding:20px 0px;
+	font-weight:bold;
+	font-size:13pt;	
+}
+
+#table_data_info{
+	height:50px;
+	line-height:50px;
+	text-align:left;
+	font-size:13pt;
+}
+
+#table_data_paginate{
+	margin:0px;
+	padding:0px;
+	height:50px;
+	line-height:50px;
+}
+
+/* END TABLE DATA */
+
+/* FUNCTION BUTTON *********************************************************************************/
+.function_button {
+	float:right;
+	margin:0px auto;
+	text-align:right;
+}
+.function_button a {
+	font-size:10px;
+	text-align:center;
+	margin:0px 5px;
+	padding:30px 7px 5px;
+	display:inline-block;
+	color:#000;
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+.function_button a:hover {
+	/*background-position:0px -32px;*/
+	border-right:#999 1px solid;
+	border-bottom:#999 1px solid;
+	padding:30px 6px 4px 7px;
+}
+a.button_new {
+	background-image:url(../images/toolbar/icon-32-new.png);
+}
+a.button_edit {
+	background-image:url(../images/toolbar/icon-32-edit.png);
+}
+a.button_save {
+	background-image:url(../images/toolbar/icon-32-apply.png);
+}
+a.button_save_new {
+	background-image:url(../images/toolbar/icon-32-save-new.png);
+}
+a.button_save_close {
+	background-image:url(../images/toolbar/icon-32-save.png);
+}
+a.button_delete {
+	background-image:url(../images/toolbar/icon-32-trash.png);
+}
+a.button_cancel {
+	background-image:url(../images/toolbar/icon-32-cancel.png);
+}
+a.button_help {
+	background-image:url(../images/toolbar/icon-32-help.png);
+}
+.line {
+	border-right:#333 1px solid;
+	height:30px;
+	width:2px;
+	display:inline-block;
+}
+
+a.button_save_order{
+	background:url(../images/iconx16/filesave.png) no-repeat bottom center;;
+	height:16px;
+	width:16px;
+	display:inline-block;
+	position:absolute;
+}
+a.button_save_order:hover{
+	background-position:top;
+}
+/* FUNCTION BUTTON *********************************************************************************/
+
+#footer {
+	position:relative;
+	background-color:#222;
+	width:100%;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+}
+/***************************88
+*****************************
+***************************/
+/*#frmAction{ border:1px solid; overflow:hidden}
+#frmAction p{ overflow:hidden;}
+#frmAction p label{width:150px; float:left; text-align:right; padding-right:15px}
+#frmAction p input{ border:1px solid #d3d3d3}
+#frmAction p textarea{width:600px !important; border:1px solid #d3d3d3}
+#frmAction p.ckediter label{ padding:5px;}*/
+#frmAction  textarea{width:100%; height:40px; border:1px solid #d3d3d3}
+div.avatar{ position:relative; overflow:hidden; width:150px; float:left}
+div.avatar img{ width:150px}
+div.avatar input{width:30px;}
+div.avatar .deleteAvatar{ overflow:hidden; position:absolute; bottom:2px; right:2px; background:#000;filter:alpha(opacity=70);opacity:.7; color:white; padding:2px 5px 2px 0; font-weight:bold}

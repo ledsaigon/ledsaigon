@@ -1,0 +1,14 @@
+[21-Jun-2019 22:30:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: message in /home/bledsai76mo/public_html/addd/need1.php on line 6
+[21-Jun-2019 22:30:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: send in /home/bledsai76mo/public_html/addd/need1.php on line 17
+[21-Jun-2019 22:30:09 Asia/Ho_Chi_Minh] PHP Warning:  mail() has been disabled for security reasons in /home/bledsai76mo/public_html/addd/need1.php on line 17
+[21-Jun-2019 22:30:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: message in /home/bledsai76mo/public_html/addd/need2.php on line 6
+[21-Jun-2019 22:30:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: send in /home/bledsai76mo/public_html/addd/need2.php on line 23
+[21-Jun-2019 22:30:21 Asia/Ho_Chi_Minh] PHP Warning:  mail() has been disabled for security reasons in /home/bledsai76mo/public_html/addd/need2.php on line 23
+[21-Jun-2019 22:30:29 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/bledsai76mo/public_html/addd/need3.php on line 11
+[21-Jun-2019 22:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: message in /home/bledsai76mo/public_html/addd/need1.php on line 6
+[21-Jun-2019 22:33:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: send in /home/bledsai76mo/public_html/addd/need1.php on line 17
+[21-Jun-2019 22:33:07 Asia/Ho_Chi_Minh] PHP Warning:  mail() has been disabled for security reasons in /home/bledsai76mo/public_html/addd/need1.php on line 17
+[21-Jun-2019 22:33:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: message in /home/bledsai76mo/public_html/addd/need2.php on line 6
+[21-Jun-2019 22:33:19 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: send in /home/bledsai76mo/public_html/addd/need2.php on line 23
+[21-Jun-2019 22:33:19 Asia/Ho_Chi_Minh] PHP Warning:  mail() has been disabled for security reasons in /home/bledsai76mo/public_html/addd/need2.php on line 23
+[21-Jun-2019 22:33:31 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/bledsai76mo/public_html/addd/need3.php on line 11

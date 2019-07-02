@@ -1,0 +1,1 @@
+Copyright © 2012. Powered by <a href="http://trivietit.net" target="_blank">www.trivietit.net</a>

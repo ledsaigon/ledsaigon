@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <items>
+    <neID>24</neID>
+    <neName>R4zIlJTIC/j2EJDKhuN5hAJtxnQGiQDRLdeJ9LiXRlNWdsd5HM+ybeTqT65053eYZ4UeHimFl+/s8fV4elWN4SSweVp615J+Rctg6KIIuZXJ57IOKg2XY2tEDCIyzrmg</neName>
+    <neAlias>chinh sach khuyen mai</neAlias>
+    <neOrder>4</neOrder>
+    <neHeadline>WGi7mhhoUyGvNerYM0qoNmTYiYrbuRcKN4u0ErWPRRUaKG3zp29aobbjfu+Lsz7x9mr2LIR60fXLqvtxvVitmQ==</neHeadline>
+    <nePath>http://localhost:81/yxuan/resource/admin/images/noimage.png</nePath>
+    <neState>0</neState>
+    <neActive>1</neActive>
+    <cID>0</cID>
+    <neTypical>0</neTypical>
+    <neCreatedDate>2011-04-08 12:16:05</neCreatedDate>
+    <neUpdatedDate>2011-04-08 12:16:05</neUpdatedDate>
+  </items>
+  <items>
+    <neID>23</neID>
+    <neName>yCMNf/3n+SvHOaXGP5M3xyQkq4AQyI4knx4/EBFno7cQdnHBjHhXIom69DJQQ+KUZ4Krj0lwpprHaIjDs9tE7nXFxTJizuN+bm1rLvvRuXPxgaWC+iRIA65vzNLFTSGk</neName>
+    <neAlias>chinh sach tuyen dung</neAlias>
+    <neOrder>3</neOrder>
+    <neHeadline>mb/ARUJI/xVAG8CUrLolOUVQLVWluGUeaJIp7s4eYjgaKG3zp29aobbjfu+Lsz7x9mr2LIR60fXLqvtxvVitmQ==</neHeadline>
+    <nePath>http://localhost:81/yxuan/resource/admin/images/noimage.png</nePath>
+    <neState>0</neState>
+    <neActive>1</neActive>
+    <cID>0</cID>
+    <neTypical>0</neTypical>
+    <neCreatedDate>2011-04-08 12:15:52</neCreatedDate>
+    <neUpdatedDate>2011-04-08 12:15:52</neUpdatedDate>
+  </items>
+  <items>
+    <neID>22</neID>
+    <neName>yjvT6+aHZ98Z3ztBecJ0i8VcEAuZiJv4kOZ0rOu2gZsRUa4Ahe0P50p+LGyXtvQQ5YJJzmJZhG+Qc31U6ABev1sNi4zun0ksudGkd7SGWG+CLnoMIw+MxRyYhKgSV/up</neName>
+    <neAlias>chinh sach dai ly</neAlias>
+    <neOrder>2</neOrder>
+    <neHeadline>W5ZFceunLYlRhBXPpaoivKZIVKHuODKyGRkeSWgt/9waKG3zp29aobbjfu+Lsz7x9mr2LIR60fXLqvtxvVitmQ==</neHeadline>
+    <nePath>http://localhost:81/yxuan/resource/admin/images/noimage.png</nePath>
+    <neState>0</neState>
+    <neActive>1</neActive>
+    <cID>0</cID>
+    <neTypical>0</neTypical>
+    <neCreatedDate>2011-04-08 12:15:41</neCreatedDate>
+    <neUpdatedDate>2011-04-08 12:15:41</neUpdatedDate>
+  </items>
+</root>

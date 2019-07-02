@@ -1,0 +1,18 @@
+/* CSS Document */
+@import "master.css";
+@import "validationEngine.jquery.css";
+@import "../jquery.tooltip.css";
+
+span.empty{
+	margin-left:145px;
+	display:block;
+	color:#F00;font-size:12px;
+	position:absolute;
+}
+span.error{
+	display:block;
+	color:#F00;
+	font-size:13px;
+	margin-top:-25px;
+	width:175px;
+}

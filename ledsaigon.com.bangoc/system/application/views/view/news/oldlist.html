@@ -1,0 +1,36 @@
+<style type="text/css">
+.page-content .news-item{ overflow:hidden;  margin:10px 0 10px 0;  line-height:20px; float:left; clear:both; text-align:justify;width:95%}
+.page-content .news-item img{ float:left; margin:0 10px 5px 0; border:1px solid #cccccc; max-height:110px}
+.page-content .news-item p.detail{ float:right; margin:5px 5px 0 0}
+.page-content .news-item p.detail a{ color:red;}
+.news-item h4 a{}
+</style>
+<div class="page-content">
+<div class="title"><h3 class="title"><?php  if(isset($cateName)) echo $cateName;?></h3></div>
+
+<?php
+if($cateObject&&$cateObject['id']==36){
+	if($userInfo){
+	 if($userInfo->tid==1)
+	 include_once 'list.php';
+	 else echo 'Xin lỗi quý khách. Nội dung này chỉ dành cho nhà thuốc';
+	 }else{?>
+	 
+<form name="frmLogin" id="frmLogin" method="post" action="<?php echo base_url()?>dang-nhap.html">
+<fieldset  id="fldLogin">
+<p>Bạn phải đăng nhập bằng tài khoản của nhà thuốc mới xem được nội dung này</p>
+	<p><label><?php echo lang('username')?>:</label><input type="text" name="username" id="username" autofocus="autofocus"></p>
+    <p><label><?php echo lang('password')?>:</label><input type="password" name="password" id="password"></p>
+    <input type="hidden" name="option" value="toPromotion" />
+    <p class="btn">
+    	<input type="submit" name="submit" class="button" value="<?php echo lang('login')?>"/>
+</p>
+   </fieldset>
+</form>
+		 <?php }
+	}else{
+		include_once 'list.php';
+		}
+
+?>
+</div>

@@ -1,0 +1,203 @@
+/* CSS Document */
+.nivoSlider {position:relative;	width:655px; height:230px; overflow: hidden; margin:0 0 10px 0; }
+.nivoSlider img {position:absolute;top:0px;left:0px;max-width: none;}
+.nivo-main-image {display: block !important;position: relative !important; width:100% !important;}
+/* The slices and boxes in the Slider */
+.nivo-slice {display:block;position:absolute;z-index:5;height:100%;	top:0;}
+.nivo-box {	display:block;position:absolute;z-index:5;overflow:hidden;}
+.nivo-box img { display:block; }
+
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav .nivo-btn-next, .nivo-directionNav .nivo-btn-pre {position:absolute;top:45%;z-index:9;cursor:pointer;width:30px;}
+.nivo-btn-pre {left:0px;width:54px !important; height:54px; background:url(../images/btn-pre.png); overflow:hidden; z-index:999;}
+.nivo-btn-pre:hover {background:url(../images/btn-pre-hover.png)  center no-repeat}
+.nivo-btn-next:hover {background:url(../images/btn-next-hover.png)  center no-repeat}
+
+.nivo-btn-next {right:5px;width:54px !important; height:54px; background:url(../images/btn-next.png); overflow:hidden; z-index:999;}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {text-align:center;padding: 15px 0;}
+
+
+
+*{ margin:0; padding:0;}
+body{ margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:url(../images/background.png) ; text-align:center}
+div{ margin:0; padding:0}
+img { border:none}
+ul ,li{ list-style:none}
+a { text-decoration:none; color:black }
+.clear{ clear:both}
+input.button{ width:auto !important; padding:4px 15px 4px 15px !important; background:#0667a9; color:white; font-weight:bold; cursor:pointer; border:none} 
+.left-content h2, .right-content h2{ text-align:left; font-size:12px;  text-transform:uppercase;  padding-left:80px;  color:#ffffff; line-height:27px; background:url(../images/bg-title-left.png) left center no-repeat; margin-bottom:2px}
+
+h3.title, h1.title{font-size:12px; text-transform:uppercase;  color:#FFF; text-align:left; padding:0 0px 0 90px; margin:0px 0 0px 0px; width:auto; overflow:hidden; float:left }
+div.title{ height:29px; line-height:29px; background:url(../images/bg-title-content.png) left center no-repeat; clear:both; overflow:hidden;}
+.background{ overflow:hidden; background:url(../images/bg-wrapper.png)  center repeat-y; text-align:center;width:1033px; margin:auto}
+#wrapper{ width:900px;margin:0 auto;    overflow:hidden; background:#FFF;}
+/******************* Header ********************************/
+#header{width:100%; margin:auto; clear:both; overflow:hidden}
+#header .banner{text-align:left; overflow:hidden;width:100%; clear:both}
+#header .banner img{ width:900px}
+.menuTop{ height:35px; margin-top:5px; line-height:35px; clear:both; background:#0667a9}
+.menuTop ul{}
+.menuTop li{ float:left; display:inline; text-align:right;padding:0 20px 0 20px; position:relative; }
+.menuTop li:first-child{ }
+.menuTop li a{ text-transform:uppercase;  color:#f2e9ea}
+.menuTop li:hover , .menuTop li.active { }
+.menuTop a:hover ,.menuTop li.active a{ color: #ffff66}
+
+#header .sologan{height:30px; line-height:30px; background:#f7931e; text-align:center; text-transform:uppercase; font-size:15px; overflow:hidden}
+#header .date{width:170px; float:left; color:white}
+
+/*****************************  Content ************************************************/
+#content{overflow:hidden; padding:0;text-align:left; margin:5px 2px 0 2px}
+
+/********************************** Left *******************************/
+
+ul#category{margin:0px 0 5px 0px;}
+ul#category li{ line-height:26px; padding:0px 0 1px 30px;  text-align:left; background:url(../images/bg-li.png) left center no-repeat; margin-bottom:1px}
+ul#category li a{ text-transform:capitalize; font-weight:bold; color:white}
+ul#category li li a{ text-transform:none}
+ul#category li a:hover,ul#category li a.active{ color:#ffff66}
+
+
+.left-content{width:235px;float:left; padding:0px 0 0 0px; overflow:hidden; text-align:left; clear:left;}
+
+.block-left{overflow:hidden margin:0px 0 10px 0}
+
+
+/******************************** SUPPORT ****************************/
+.support{ overflow:hidden;  padding:0px 0 0px 0 ; margin:10px 30px 0px 20px;  text-align:center;}
+.support .yahoo,.support .skype{ overflow:hidden;width:100px; float:left; text-align:center}
+.support .skype{ float:right}
+.support  img{ float:right; margin-top:12px }
+.support p{ overflow:hidden; margin:0px 0 0 0px; line-height:20px;   line-height:20px; float:left }
+.support p span{ color:red}
+
+/******************************** Counter ****************************/
+
+.counter{ background:url(../images/bg-counter.png) left center no-repeat;  overflow:hidden;  margin:10px 0 10px 20px; text-indent:80px}
+.counter p{ line-height:25px; font-weight:bold; overflow:hidden;  text-align:left}
+
+.counter p span{ text-align:right; margin-right:5px; }
+.left-content  .block-left .img-ads{ width:240px; overflow:hidden; margin:5px 0 10px 0; text-align:center}
+
+
+/***************************  News *******************************/
+.otherNews{ overflow:hidden}
+.otherNews p{ line-height:20px; margin:10px 0 0 0; background:url(../images/icon/icon-list-news.png) left center no-repeat; padding-left:20px}
+/*************************** RIGHT ********************************/
+.right-content{ overflow:hidden; width:220px; float:right; display:none}
+.block-right{ overflow:hidden; text-align:center}
+.block-right img{max-width:180px; margin:10px 0 10px 0; max-height:220px}
+.block-right marquee{ overflow:hidden; margin-bottom:15px; text-align:center}
+/**************** Main -content****************/
+.main-content{overflow:hidden; float:right; margin:0px 0px 0 5px;padding:0px 0px 0 0px;width:652px; text-align:left;}
+
+.list-product{overflow:hidden; margin:10px 0 20px 0; }
+.list-product .product-item{overflow:hidden; width:200px;  float:left; margin:0 22px 0 0; text-align:center;}
+
+.list-product .product-item-last{overflow:hidden; width:200px; float:right; text-align:center; margin-right:0px;}
+.list-product .img {text-align:center;overflow:hidden; margin:5px 0 5px 0 }
+.list-product p{ line-height:23px; }
+.list-product .img img{ height:145px; max-width:210px; }
+.list-product .sapo{ overflow:hidden; text-align:justify; margin-top:3px; }
+.list-product p.name{text-align:center}
+.list-product p.name a{ color:#076bae; text-transform:uppercase}
+.list-product p.price{color:#cf0200; line-height:28px}
+.list-product p.price span{ color:black}
+
+.page-content .list-product p.detail{ line-height:25px;}
+.page-content .list-product p.order{float:right; background:#000;width:50%;height:25px; line-height:25px;text-align:center; }
+.list-product p.order a{ color:white}
+ .list-product p.detail a{ color:red}
+
+/*************** Footer ****************************************************************/
+#footer{ overflow:hidden;text-align:center; width:100%; padding:0px 0 5px 0; background:#FFF; clear:both; }
+.footer{width:100%; margin:auto; line-height:25px; color:#0565a5}
+.footer a{ color:#0565a5}
+.menuFooter{ overflow:hidden; height:30px; background:#0667a9; line-height:30px}
+.menuFooter ul{ overflow:hidden; height:30px;width:100%}
+.menuFooter li{ float:left; text-align:center; line-height:30px;  overflow:hidden; padding:0 22px 0 22px }
+.menuFooter li:last-child{ background:none; }
+.menuFooter li a{ color:white; text-transform:uppercase}
+.footer{overflow:hidden; line-height:25px; text-align:left}
+.paging{ float:right; margin:15px 120px 0 0; font-size:12px; clear:both}
+.paging div{ float:left;padding:0 2px 0 2px; color:black;  display:inline; margin-left:5px }
+.paging  .num{padding:8px; font-size:12px; background:url(../images/bg-page.png) center; margin-right:5px; font-weight:bold}
+.paging .curent {  color:red !important;padding:5px; font-weight:bold;background:url(../images/bg-page.png) center; margin-right:5px }
+.paging img{ margin:10px 0px 0 0px; }
+
+
+#lbOverlay {position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; cursor: pointer;}
+
+
+
+#lbCenter, #lbBottomContainer {	position: absolute; z-index: 9999; overflow: hidden; background-color: #fff;}
+
+
+
+.lbLoading {background: #fff url(../images/loading.gif) no-repeat center;}
+
+
+
+#lbImage {position: absolute; left: 0; top: 0; border: 10px solid #fff; background-repeat: no-repeat; }
+
+
+
+#lbPrevLink, #lbNextLink {display: block; position: absolute; top: 0; width: 50%; outline: none; }
+
+
+
+#lbPrevLink {left: 0;}
+
+
+
+#lbPrevLink:hover {	background: transparent url(../images/prevlabel.gif) no-repeat 0 15%;}
+
+
+
+#lbNextLink {right: 0;} 
+
+
+
+#lbNextLink:hover {	background: transparent url(../images/nextlabel.gif) no-repeat 100% 15%;}
+
+
+
+#lbBottom {font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 10px; color: #666; line-height: 1.4em; text-align: left; border: 10px solid #fff; border-top-style: none;}
+
+
+
+#lbCloseLink {display: block; float: right; width: 66px; height: 22px; background: transparent url(../images/closelabel.gif) no-repeat center; margin: 5px 0; outline: none; }
+
+
+
+#lbCaption, #lbNumber {margin-right: 71px; }
+
+
+
+#lbCaption {font-weight: bold;}	
+
+
+
+.page-content{ overflow:hidden; margin:0 0px 0px 0px;}
+
+.block-ads{ overflow:hidden; text-align:center}
+.block-ads img{ max-width:200px; margin:10px 0 10px 0}
+
+.left-content .hidden{ display:none}
+.block-left p.news{ overflow:hidden; line-height:20px; margin:5px 5px 10px 5px; font-weight:bold}
+.block-left p.news img{ float:left; margin-right:5px}
+.page-content div.img-detail{width:205px;  float:left; margin:10px 0 15px 0; overflow:hidden; text-align: center;  text-align:center}
+.page-content .img-detail img{ text-align:center; max-width:200px; }
+
+div.info {width:300px;margin:10px 0 0 0px; padding-left:20px;  overflow:hidden; float:left;  position:relative;}
+div.info p{  font-size:12px;  line-height:30px;}
+div.info .name{ text-transform:uppercase}
+.info .intro{ line-height:25px}
+.info .intro h3{ border-bottom:1px solid #d5d5d5}
+div.info p.price{ color:red }
+div.info p label{width:60px; float:left; font-weight:bold}
+.detail-product h3{ float:left; font-weight:bold;font-size:14px; margin:0 0 15px 0px; padding:0 0 5px 0;  display:block; width:100%; background:none; color:black; text-transform:none; border-bottom:1px solid #d5d5d5} 
+
+.detail-product{ margin:10px 0 15px 0; overflow:hidden; clear:both;  }

@@ -1,0 +1,4 @@
+[12-Mar-2016 03:56:40 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/triviet/public_html/ledsaigon/resource/ckfinder/config.php on line 54
+[12-Mar-2016 03:56:54 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/triviet/public_html/ledsaigon/resource/ckfinder/config.php on line 54
+[15-Jun-2018 09:04:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: usersInfo in /home/bledsai76mo/public_html/resource/ckfinder/config.php on line 102
+[15-Jun-2018 09:04:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: usersInfo in /home/bledsai76mo/public_html/resource/ckfinder/config.php on line 102
